@@ -1,0 +1,3 @@
+import arp
+arp_obj = arp.Arp()
+arp_obj.send_arp_request(1000)

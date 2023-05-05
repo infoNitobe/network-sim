@@ -14,10 +14,3 @@ class Arp:
 
         sendp(arp_pkt)  # ARPパケットの送信
         print("send arp packet")
-
-def main():
-    arp = Arp()
-    arp.send_arp_request(1000)
-
-if __name__ == '__main__':
-    main()
